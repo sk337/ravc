@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Roblox Account Value Calculator (RAVC)
 
-## Getting Started
+## Project Description
 
-First, run the development server:
+RAVC is a web application that calculates the total value of a Roblox account by determining the amount of Robux spent. It provides users with a detailed breakdown of their spending on various items and services within the Roblox platform.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Calculate the total value of a Roblox account
+- Detailed breakdown of spending on items and services
+- User-friendly interface
+- Secure authentication with Roblox account
+- Responsive design for mobile and desktop
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Radix UI
+- Axios
+- Zod
+- Superjson
+- Lucide React
+- Shadcn
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sk337/ravc.git
+   cd ravc
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Create a `.env` file based on the `.env.example` file and fill in the required environment variables.
 
-## Deploy on Vercel
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+
+1. Open the application in your browser.
+2. Log in with your Roblox account.
+3. View the total value of your Roblox account and a detailed breakdown of your spending.
+4. Use the navigation menu to access different sections of the application.
+
+
+## Roblox OAuth App Creation Documentation
+
+For more information on creating a Roblox OAuth app, please refer to the [Roblox OAuth App Creation Documentation](https://create.roblox.com/docs/cloud/open-cloud/oauth2-registration).
